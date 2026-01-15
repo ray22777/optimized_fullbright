@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e4e54c9-4b8b-4609-b937-828a694bc033" name="Changes" comment="" />
+    <list default="true" id="5e4e54c9-4b8b-4609-b937-828a694bc033" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/FullBrightToggle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/Keybind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/OptimizedFullbrightClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/OptimizedFullbright.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/OptimizedFullbright.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +42,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ray22777"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ray22777/optimized_fullbright.git",
+    "accountId": "767ae7a2-2f22-49e7-b3fe-2fc5b723bb58"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -49,21 +75,28 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ray/Documents/MinecraftModDev/optimized_fullbright-1.20.4-fabric-neoforge-forge-template/fabric/src/main/java/net/ray/fullbright/fabric",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\fabric\src\main\java\net\ray\fullbright\fabric" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Minecraft Client (:fabric)" />
   <component name="SharedIndexes">
     <attachedChunks>
@@ -80,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768485044054</updated>
-      <workItem from="1768485045872" duration="2439000" />
+      <workItem from="1768485045872" duration="3428000" />
     </task>
     <servers />
   </component>

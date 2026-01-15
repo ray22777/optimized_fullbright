@@ -15,7 +15,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.ray.fullbright.OptimizedFullbright"
+      "net.ray.fullbright.fabric.OptimizedFullbright"
+    ],
+    "client": [
+      "net.ray.fullbright.fabric.OptimizedFullbrightClient"
     ]
   },
   "mixins": [

@@ -1,4 +1,4 @@
-package net.ray.fullbright;
+package net.ray.fullbright.fabric;
 
 import net.fabricmc.api.ModInitializer;
 
