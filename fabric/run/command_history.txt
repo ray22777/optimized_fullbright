@@ -1,0 +1,2 @@
+/time set night
+/gamerule doDaylightCycle false

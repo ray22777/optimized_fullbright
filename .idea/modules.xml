@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/optimized_fullbright.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/optimized_fullbright.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/optimized_fullbright.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/optimized_fullbright.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/optimized_fullbright.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/optimized_fullbright.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/optimized_fullbright.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/optimized_fullbright.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/optimized_fullbright.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/optimized_fullbright.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/optimized_fullbright.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/optimized_fullbright.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/optimized_fullbright.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/optimized_fullbright.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/optimized_fullbright.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/optimized_fullbright.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/optimized_fullbright.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/optimized_fullbright.neoforge.test.iml" />
+    </modules>
+  </component>
+</project>
