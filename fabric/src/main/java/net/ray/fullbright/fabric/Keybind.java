@@ -6,19 +6,21 @@ import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
+import net.minecraft.client.renderer.LightTexture;
 import net.minecraft.network.chat.Component;
+import net.ray.fullbright.FullBrightToggle;
 import org.lwjgl.glfw.GLFW;
 
 public class Keybind {
     public static final String KEY_CATEGORY = "key.category.fullbright.fullbrightoptimized";
     public static final String KEY_TOGGLE_FULLBRIGHT = "key.fullbright.togglefullbright";
     public static KeyMapping toggleFullbright;
-
+    private static long scheduledRefreshTick = -1;
     public static void registerKeyInputs() {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if (toggleFullbright.consumeClick()) {
-                if (!FullBrightToggle.disableFullBright) {
-                    FullBrightToggle.disableFullBright = true;
+                if (FullBrightToggle.isEnabled) {
+                    FullBrightToggle.isEnabled = false;
                     LocalPlayer player = Minecraft.getInstance().player;
                     if (player != null) {
                         player.displayClientMessage(
@@ -28,8 +30,9 @@ public class Keybind {
                     }
                     System.out.print("disabled");
                     Minecraft.getInstance().levelRenderer.allChanged();
+
                 } else {
-                    FullBrightToggle.disableFullBright = false;
+                    FullBrightToggle.isEnabled = true;
                     LocalPlayer player = Minecraft.getInstance().player;
                     if (player != null) {
                         player.displayClientMessage(

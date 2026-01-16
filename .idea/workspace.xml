@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e4e54c9-4b8b-4609-b937-828a694bc033" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/FullBrightToggle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/Keybind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/OptimizedFullbrightClient.java" afterDir="false" />
+    <list default="true" id="5e4e54c9-4b8b-4609-b937-828a694bc033" name="Changes" comment="added kb">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightLevelEngineMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightmapMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightmapMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/WorldRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/WorldRendererMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/optimized_fullbright.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/optimized_fullbright.mixins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/command_history.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-2.log.gz" afterDir="false" />
@@ -16,8 +21,30 @@
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/OptimizedFullbright.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/OptimizedFullbright.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/data/random_sequences.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/poi/r.-1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/poi/r.-1.-2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.-2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/FullBrightToggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/FullBrightToggle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/Keybind.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/Keybind.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +66,41 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ray22777"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ray22777&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ray22777/optimized_fullbright.git",
-    "accountId": "767ae7a2-2f22-49e7-b3fe-2fc5b723bb58"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ray22777/optimized_fullbright.git&quot;,
+    &quot;accountId&quot;: &quot;767ae7a2-2f22-49e7-b3fe-2fc5b723bb58&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="38IRLdUMnMdkG4YBKIri4Bs0gPb" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -73,13 +112,14 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Keybinds",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ray/Documents/MinecraftModDev/optimized_fullbright-1.20.4-fabric-neoforge-forge-template/fabric/src/main/java/net/ray/fullbright/fabric",
+    "last_opened_file_path": "C:/Users/Ray/Documents/MinecraftModDev/optimized_fullbright-1.20.4-fabric-neoforge-forge-template/common/src/main/java/net/ray/fullbright/mixin",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,7 +134,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\src\main\java\net\ray\fullbright\mixin" />
       <recent name="C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\fabric\src\main\java\net\ray\fullbright\fabric" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.ray.fullbright" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Minecraft Client (:fabric)" />
@@ -113,11 +157,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768485044054</updated>
-      <workItem from="1768485045872" duration="3428000" />
+      <workItem from="1768485045872" duration="3856000" />
+      <workItem from="1768556392254" duration="6543000" />
     </task>
+    <task id="LOCAL-00001" summary="added kb">
+      <option name="closed" value="true" />
+      <created>1768488656053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768488656053</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added kb" />
+    <option name="LAST_COMMIT_MESSAGE" value="added kb" />
   </component>
 </project>
