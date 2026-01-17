@@ -23,24 +23,16 @@ public class Keybind {
                     FullBrightToggle.isEnabled = false;
                     LocalPlayer player = Minecraft.getInstance().player;
                     if (player != null) {
-                        player.displayClientMessage(
-                                Component.literal("Fullbright Disabled"),
-                                false
-                        );
+                        player.displayClientMessage(Component.literal("§bFullbright §7- §cOFF"), true);
                     }
-                    System.out.print("disabled");
                     Minecraft.getInstance().levelRenderer.allChanged();
 
                 } else {
                     FullBrightToggle.isEnabled = true;
                     LocalPlayer player = Minecraft.getInstance().player;
                     if (player != null) {
-                        player.displayClientMessage(
-                                Component.literal("Fullbright Enabled"),
-                                false
-                        );
+                        player.displayClientMessage(Component.literal("§bFullbright §7- §aON"), true);
                     }
-                    System.out.print("enabled");
                     Minecraft.getInstance().levelRenderer.allChanged();
                 }
             }

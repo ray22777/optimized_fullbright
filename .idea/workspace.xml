@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e4e54c9-4b8b-4609-b937-828a694bc033" name="Changes" comment="added kb">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightLevelEngineMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="5e4e54c9-4b8b-4609-b937-828a694bc033" name="Changes" comment="working keybind">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/ThreadChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/optimizedfullbright/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightLevelEngineMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightLevelEngineMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightmapMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/LightmapMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/WorldRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/mixin/WorldRendererMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/resources/optimized_fullbright.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/optimized_fullbright.mixins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/command_history.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-15-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/data/fabricDefaultResourcePacks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/data/fabricDefaultResourcePacks.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
@@ -31,7 +31,6 @@
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/poi/r.-1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/poi/r.-1.-2.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-2.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
@@ -40,11 +39,9 @@
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/FullBrightToggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/fullbright/FullBrightToggle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/Keybind.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/Keybind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,35 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
+                <item name="fabric" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
+                <item name="fabric" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
+                <item name="fabric" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -108,6 +133,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Download Sources.executor": "Run",
+    "Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:fabric:build].executor": "Run",
     "Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -135,13 +161,45 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\src\main\java\net\ray\fullbright\mixin" />
+      <recent name="C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\src\main\resources" />
       <recent name="C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\fabric\src\main\java\net\ray\fullbright\fabric" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="net.ray.fullbright" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client (:fabric)" />
+  <component name="RunManager" selected="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:fabric:build]">
+    <configuration name="optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:fabric:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":fabric:build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:fabric:build]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -158,7 +216,8 @@
       <option name="presentableId" value="Default" />
       <updated>1768485044054</updated>
       <workItem from="1768485045872" duration="3856000" />
-      <workItem from="1768556392254" duration="6543000" />
+      <workItem from="1768556392254" duration="23428000" />
+      <workItem from="1768657242274" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="added kb">
       <option name="closed" value="true" />
@@ -168,7 +227,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768488656053</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working keybind">
+      <option name="closed" value="true" />
+      <created>1768563010585</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768563010585</updated>
+    </task>
+    <task id="LOCAL-00003" summary="working keybind">
+      <option name="closed" value="true" />
+      <created>1768563014806</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768563014806</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +251,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added kb" />
-    <option name="LAST_COMMIT_MESSAGE" value="added kb" />
+    <MESSAGE value="working keybind" />
+    <option name="LAST_COMMIT_MESSAGE" value="working keybind" />
   </component>
 </project>

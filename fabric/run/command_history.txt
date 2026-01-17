@@ -9,3 +9,28 @@
 /time set midnight
 /time set day
 /time set night
+/time set day
+/gamemode spectator
+/gamemode creative
+/time set night
+/gamemode creative
+/time set night
+/time set midnight
+/time set night
+/gamemode spectator
+/gamemode creative
+/gamerule randomTickSpeed 200
+/gamerule randomTickSpeed 3
+/gamemode spectator
+/gamemode creative
+/time set night
+/gamerule randomTickSpeed 100
+/gamemode creative
+/gamemode spectator
+/time set night
+/gamemode creative
+/gamerule randomTickSpeed 3
+/time set night
+/gamerule randomTickSpeed 1000
+/gamerule randomTickSpeed 3
+/gamemode creative

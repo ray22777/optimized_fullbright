@@ -5,6 +5,7 @@
   "minVersion": "0.8",
   "client": ["WorldRendererMixin","LightmapMixin","LightLevelEngineMixin","LightMixin"
   ],
+  "server": [],
   "mixins": [
   ],
   "injectors": {
