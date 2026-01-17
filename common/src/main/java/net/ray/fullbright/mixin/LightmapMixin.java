@@ -28,22 +28,6 @@ public abstract class LightmapMixin {
             cir.setReturnValue(0.0F);
         }
     }
-//    @Inject(
-//            method = "updateLightTexture",
-//            at = @At("HEAD"),
-//            cancellable = true
-//    )
-//    private void onUpdateLightTexture(float partialTick, CallbackInfo ci) {
-//        if (FullBrightToggle.isEnabled) {
-//            for (int i = 0; i < 16; ++i) {
-//                for (int j = 0; j < 16; ++j) {
-//                    this.lightPixels.setPixelRGBA(j, i, 0xFFF0F000);
-//                }
-//            }
-//            ci.cancel();
-//        }
-//    }
-
 
     @Inject(method = "updateLightTexture", at = @At("HEAD"), cancellable = true)
     private void fullbright(float partialTick, CallbackInfo ci) {

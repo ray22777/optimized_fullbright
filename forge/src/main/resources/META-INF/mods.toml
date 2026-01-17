@@ -1,28 +1,28 @@
 modLoader = "javafml"
-loaderVersion = "[49,)"
+loaderVersion = "[41,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT"
 
 [[mods]]
-modId = "optimized_fullbright"
+modId = "optimizedfullbright"
 version = "${version}"
 displayName = "Optimized Fullbright"
-authors = "Me!"
+authors = "ray"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Fullbright mod that disables the lighting system to improve performance.
 '''
 #logoFile = ""
 
-[[dependencies.optimized_fullbright]]
+[[dependencies.optimizedfullbright]]
 modId = "forge"
 mandatory = true
-versionRange = "[49,)"
+versionRange = "[41,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.optimized_fullbright]]
+[[dependencies.optimizedfullbright]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.4,)"
+versionRange = "[1.20,1.21.11]"
 ordering = "NONE"
 side = "BOTH"
