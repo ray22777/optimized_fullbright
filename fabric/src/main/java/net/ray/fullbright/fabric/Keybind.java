@@ -12,6 +12,8 @@ import net.ray.fullbright.FullBrightToggle;
 import org.lwjgl.glfw.GLFW;
 
 public class Keybind {
+    //    public static final KeyMapping.Cat KEY_CATEGORY =
+//            KeyMapping.Category.register(ResourceLocation.fromNamespaceAndPath("fullbright", "fullbrightoptimized"));
     public static final String KEY_CATEGORY = "key.category.fullbright.fullbrightoptimized";
     public static final String KEY_TOGGLE_FULLBRIGHT = "key.fullbright.togglefullbright";
     public static KeyMapping toggleFullbright;

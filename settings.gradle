@@ -11,5 +11,4 @@ rootProject.name = 'optimized_fullbright'
 
 include 'common'
 include 'fabric'
-include 'forge'
 include 'neoforge'
