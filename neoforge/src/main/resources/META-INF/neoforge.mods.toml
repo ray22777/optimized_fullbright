@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "optimizedfullbright"
+version = "${version}"
+displayName = "Optimized Fullbright"
+authors = "ray"
+description = '''
+Fullbright mod that disables the lighting system to improve performance.
+'''
+#logoFile = ""
+
+[[dependencies.optimizedfullbright]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.optimizedfullbright]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "optimized_fullbright.mixins.json"
