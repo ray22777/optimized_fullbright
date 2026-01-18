@@ -225,3 +225,4 @@ com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication 
 [13:16:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [13:16:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [13:16:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[13:19:24] [Render thread/INFO] (Minecraft) Stopping!

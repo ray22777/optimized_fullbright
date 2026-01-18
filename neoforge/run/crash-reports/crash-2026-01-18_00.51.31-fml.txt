@@ -1,0 +1,138 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2026-01-18 00:51:31
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.neoforged.neoforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:55) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23189%23192!/:?] {re:classloading}
+	at net.neoforged.neoforge.client.loading.ClientModLoader.completeModLoading(ClientModLoader.java:125) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23189%23192!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.buildInitialScreens(Minecraft.java:679) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23190!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.onGameLoadFinished(Minecraft.java:652) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23190!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.onResourceLoadFinished(Minecraft.java:647) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23190!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.lambda$new$6(Minecraft.java:635) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23190!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.Util.ifElse(Util.java:425) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23190!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraft.client.Minecraft.lambda$new$7(Minecraft.java:629) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23190!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.neoforged.neoforge.client.loading.NeoForgeLoadingOverlay.render(NeoForgeLoadingOverlay.java:146) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23189%23192!/:?] {re:classloading}
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:1128) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23190!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1263) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23190!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:818) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23190!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:244) ~[neoforge-20.4.251-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-neoforge-20.4.251.jar%23190!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-2.0.17.jar%23125!/:2.0] {}
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-2.0.17.jar%23125!/:2.0] {}
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-2.0.17.jar%23125!/:2.0] {}
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-2.0.17.jar%23125!/:2.0] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar%23187!/:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:220) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.neoforged.bus.EventBus.register(EventBus.java:104) ~[bus-7.2.0.jar%23134!/:?] {}
+-- MOD optimizedfullbright --
+Details:
+	Mod File: /C:/Users/Ray/Documents/MinecraftModDev/optimized_fullbright-1.20.4-fabric-neoforge-forge-template/neoforge/build/resources/main/
+	Failure message: Optimized Fullbright (optimizedfullbright) has failed to load correctly
+		java.lang.IllegalArgumentException: Expected @SubscribeEvent method public static void net.ray.fullbright.neoforge.OptimizedFullbright$ClientEventHandler.onClientTick(net.neoforged.neoforge.event.TickEvent$ClientTickEvent) to NOT be static
+		because register() was called with an instance type.
+		Either make the method non-static, or call register(ClientEventHandler.class).
+		
+	Mod Version: 1.0.0
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.IllegalArgumentException: Expected @SubscribeEvent method public static void net.ray.fullbright.neoforge.OptimizedFullbright$ClientEventHandler.onClientTick(net.neoforged.neoforge.event.TickEvent$ClientTickEvent) to NOT be static
+because register() was called with an instance type.
+Either make the method non-static, or call register(ClientEventHandler.class).
+
+Stacktrace:
+	at net.neoforged.bus.EventBus.register(EventBus.java:104) ~[bus-7.2.0.jar%23134!/:?] {}
+	at net.ray.fullbright.neoforge.OptimizedFullbright.<init>(OptimizedFullbright.java:40) ~[%23191!/:?] {re:classloading}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?] {}
+	at net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:111) ~[loader-2.0.17.jar%23125!/:2.0] {}
+	at net.neoforged.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:129) ~[loader-2.0.17.jar%23125!/:2.0] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.4
+	Minecraft Version ID: 1.20.4
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.17, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 909246632 bytes (867 MiB) / 1916796928 bytes (1828 MiB) up to 4276092928 bytes (4078 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3600X 6-Core Processor             
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.80
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 2060
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1f08
+	Graphics card #0 versionInfo: DriverVersion=32.0.15.9174
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.60
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.60
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 30643.59
+	Virtual memory used (MB): 24470.65
+	Swap memory total (MB): 14336.00
+	Swap memory used (MB): 812.21
+	JVM Flags: 0 total; 
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		sponge-mixin-0.13.4+mixin.0.8.5.jar mixin PLUGINSERVICE 
+		loader-2.0.17.jar slf4jfixer PLUGINSERVICE 
+		loader-2.0.17.jar runtime_enum_extender PLUGINSERVICE 
+		unprotect-modlauncher-2.0.2.jar unprotect PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-2.0.17.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar mixin-synthetic-package TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@2.0
+		lowcodefml@2.0
+		minecraft@2.0
+	Mod List: 
+		16246386414097843145.jar                          |generated_6ff8ff4             |generated_6ff8ff4             |1                   |COMMON_SET|Manifest: NOSIGNATURE
+		neoforge-20.4.251-minecraft-merged-1.20.4-loom.map|Minecraft                     |minecraft                     |1.20.4              |COMMON_SET|Manifest: NOSIGNATURE
+		                                                  |NeoForge                      |neoforge                      |20.4.251            |COMMON_SET|Manifest: NOSIGNATURE
+		main                                              |Optimized Fullbright          |optimizedfullbright           |1.0.0               |ERROR     |Manifest: NOSIGNATURE
+	Crash Report UUID: d501188d-61b1-428f-b3ce-2629fa8fafb0
+	FML: 20.4
+	NeoForge: net.neoforged:20.4.251

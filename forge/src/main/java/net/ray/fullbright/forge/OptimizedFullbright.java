@@ -1,5 +1,5 @@
 
-package net.ray.fullbright;
+package net.ray.fullbright.forge;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import net.minecraft.client.KeyMapping;
@@ -15,6 +15,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.ray.fullbright.FullBrightToggle;
 import org.lwjgl.glfw.GLFW;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -55,15 +56,15 @@ public class OptimizedFullbright {
         @SubscribeEvent
         public static void onClientTick(TickEvent.ClientTickEvent event) {
             if (toggleFullbright != null && toggleFullbright.consumeClick()) {
-                if (FullBrightToggle.isEnabled) {
-                    FullBrightToggle.isEnabled = false;
+                if (FullBrightToggle.isEnabled()) {
+                    FullBrightToggle.disable();
                     LocalPlayer player = Minecraft.getInstance().player;
                     if (player != null) {
                         player.displayClientMessage(Component.literal("§bFullbright §7- §cOFF"), true);
                     }
                     Minecraft.getInstance().levelRenderer.allChanged();
                 } else {
-                    FullBrightToggle.isEnabled = true;
+                    FullBrightToggle.enable();
                     LocalPlayer player = Minecraft.getInstance().player;
                     if (player != null) {
                         player.displayClientMessage(Component.literal("§bFullbright §7- §aON"), true);

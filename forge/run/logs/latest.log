@@ -1,0 +1,18 @@
+[22:53:25] [main/INFO] (Launcher) ModLauncher running: args [--launchTarget, forge_userdev_client, --version, MOD_DEV, --assetIndex, 1.20.4-12, --assetsDir, C:\Users\Ray\.gradle\caches\fabric-loom\assets, --gameDir, ., -mixin.config, optimized_fullbright.mixins.json, --mixin.config, optimized_fullbright.mixins.json]
+[22:53:25] [main/INFO] (Launcher) JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 17.0.17+10
+[22:53:25] [main/INFO] (Launcher) ModLauncher 10.1.2 starting: java version 17.0.17 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[22:53:25] [main/INFO] (unprotect) Initializing Unprotect using ModLauncher backend, target: Minecraft and loader classes (minecraft+forge)
+[22:53:25] [main/INFO] (ImmediateWindowHandler) Loading ImmediateWindowProvider fmlearlywindow
+[22:53:25] [main/INFO] (EARLYDISPLAY) Trying GL version 4.6
+[22:53:25] [main/INFO] (EARLYDISPLAY) Requested GL version 4.6 got version 4.6
+[22:53:25] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/Ray/.gradle/caches/modules-2/files-2.1/dev.architectury/mixin-patched/0.8.5.12/cf1f787f58d3b08b0cb53ecbba7928c09a1893c8/mixin-patched-0.8.5.12.jar!/ Service=ModLauncher Env=CLIENT
+[22:53:25] [EarlyDisplay/INFO] (EARLYDISPLAY) GL info: NVIDIA GeForce RTX 2060/PCIe/SSE2 GL version 4.6.0 NVIDIA 591.74, NVIDIA Corporation
+[22:53:25] [main/INFO] (ModDiscoverer) Found mod file  of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3dd2a70d
+[22:53:25] [main/INFO] (ModDiscoverer) Found mod file fmlcore-1.20.4-49.2.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@46700301
+[22:53:25] [main/INFO] (ModDiscoverer) Found mod file javafmllanguage-1.20.4-49.2.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@46700301
+[22:53:25] [main/INFO] (ModDiscoverer) Found mod file mclanguage-1.20.4-49.2.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@46700301
+[22:53:25] [main/INFO] (ModDiscoverer) Found mod file 13257929205984331098.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@46700301
+[22:53:25] [main/INFO] (ModDiscoverer) Found mod file lowcodelanguage-1.20.4-49.2.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@46700301
+[22:53:25] [main/INFO] (ModDiscoverer) Found mod file  of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@46700301
+[22:53:25] [main/INFO] (ModDiscoverer) Found mod file  of type MOD with provider net.minecraftforge.fml.loading.targets.ForgeUserdevLocator@3c2956a6
+[22:53:26] [main/INFO] (JarInJarDependencyLocator) No dependencies to load found. Skipping!

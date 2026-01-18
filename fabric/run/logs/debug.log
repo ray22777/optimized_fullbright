@@ -2155,3 +2155,4 @@ com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown or incomplete co
 [13:16:26] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [13:16:26] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [13:16:26] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage: All dimensions are saved
+[13:19:24] [Render thread/INFO] (net.minecraft.client.Minecraft) Stopping!

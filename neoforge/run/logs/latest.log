@@ -1,0 +1,133 @@
+[10:37:43] [main/INFO] (Entrypoint) JVM Uptime at startup: 2879ms
+[10:37:43] [main/INFO] (FMLLoader) Starting FancyModLoader version 10.0.29 (CLIENT in DEV)
+[10:37:43] [main/INFO] (FMLLoader) Game directory: C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\neoforge\run
+[10:37:43] [main/WARN] (FMLConfig) Configuration file C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\neoforge\run\config\fml.toml is not correct. Correcting
+[10:37:44] [main/INFO] (EarlyServiceDiscovery) Found 2 early service jars (out of 126) in 49ms
+[10:37:44] [main/INFO] (FMLLoader) Loading FML Early Services:
+[10:37:44] [main/INFO] (FMLLoader)  - C:/Users/Ray/.gradle/caches/fabric-loom/forge/transformed-dependencies-v1/net/neoforged/fancymodloader/691fb50f520a1442ae5c3385ef06b1e55e9d782a2453de9df39a9d13ecffff10/loader/10.0.29/loader-10.0.29.jar
+[10:37:44] [main/INFO] (FMLLoader)  - C:/Users/Ray/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.29/6268812ffd0c16cc1eea921b2335d58585384574/earlydisplay-10.0.29.jar
+[10:37:44] [main/INFO] (ImmediateWindowHandler) Loading ImmediateWindowProvider fmlearlywindow
+[10:37:44] [ForkJoinPool.commonPool-worker-3/INFO] (GameLocator) Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[10:37:44] [ForkJoinPool.commonPool-worker-3/INFO] (ModDiscoverer) Found mod file "client-extra.jar" [locator: game locator]
+[10:37:44] [ForkJoinPool.commonPool-worker-3/INFO] (ModDiscoverer) Found mod file "neoforge-21.10.50-beta-minecraft-merged-1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta.jar" [locator: game locator]
+[10:37:44] [ForkJoinPool.commonPool-worker-3/INFO] (InDevFolderLocator) Got mod coordinates main%%C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\neoforge\build\resources\main;main%%C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\neoforge\build\classes\java\main;main%%C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\neoforge\out\production\classes;main%%C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\neoforge\out\production\resources from env
+[10:37:44] [ForkJoinPool.commonPool-worker-3/INFO] (ModDiscoverer) Found mod file "main" [locator: indevfolder, reader: mod manifest]
+[10:37:44] [ForkJoinPool.commonPool-worker-3/INFO] (ModDiscoverer) Found mod file "architectury-neoforge-d73ba8eb-18.0.6.jar" [locator: indevjar, reader: mod manifest]
+[10:37:44] [ForkJoinPool.commonPool-worker-3/INFO] (ModDiscoverer) Found mod file "7151532687498251936.jar" [locator: indevjar, reader: mod manifest]
+[10:37:44] [ForkJoinPool.commonPool-worker-3/INFO] (ModDiscoverer) Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [locator: indevjar, reader: mod manifest]
+[10:37:44] [fml-loadingscreen/INFO] (LoadingScreenRenderer) GL info: NVIDIA GeForce RTX 2060/PCIe/SSE2 GL version 3.3.0 NVIDIA 591.74, NVIDIA Corporation
+[10:37:44] [ForkJoinPool.commonPool-worker-3/WARN] (JarSelector) Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using jar(C:\Users\Ray\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)
+[10:37:44] [ForkJoinPool.commonPool-worker-3/INFO] (JarInJarDependencyLocator) Found 1 dependencies adding them to mods collection
+[10:37:44] [ForkJoinPool.commonPool-worker-3/INFO] (ModDiscoverer) Found library file "net.neoforged.neoforge-coremods-21.10.50-beta.jar" [parent: neoforge-21.10.50-beta-minecraft-merged-1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta.jar, locator: jarinjar, reader: mod manifest]
+[10:37:44] [ForkJoinPool.commonPool-worker-3/INFO] (ModDiscoverer) 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 18.0.6 (architectury)
+		generated_a1c752d 1 (generated_a1c752d)
+		Minecraft 1.21.10 (minecraft)
+		NeoForge 21.10.50-beta (neoforge)
+		Optimized Fullbright 1.0.0 (optimizedfullbright)
+[10:37:44] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Ray/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[10:37:44] [main/INFO] (FMLLoader) Loading FML Plugins:
+[10:37:44] [main/INFO] (FMLLoader)  - .cache/jij/51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1/net.neoforged.neoforge-coremods-21.10.50-beta.jar
+[10:37:45] [main/INFO] (unprotect) Initializing Unprotect using FancyModLoader backend, target: Minecraft and loader classes (minecraft+forge)
+[10:37:45] [main/INFO] (FMLLoader) Building game content classloader:
+ - architectury (jar(C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\.gradle\loom-cache\remapped_mods\remapped\dev\architectury\architectury-neoforge-d73ba8eb\18.0.6\architectury-neoforge-d73ba8eb-18.0.6.jar))
+ - generated_a1c752d (jar(C:\Users\Ray\AppData\Local\Temp\7151532687498251936.jar))
+ - minecraft (composite(jar(C:\Users\Ray\.gradle\caches\fabric-loom\1.21.10\neoforge\21.10.50-beta\client-extra.jar), filtered(jar(C:\Users\Ray\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\neoforge-21.10.50-beta-minecraft-merged\1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta\neoforge-21.10.50-beta-minecraft-merged-1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta.jar))))
+ - mixinextras.neoforge (jar(C:\Users\Ray\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar))
+ - neoforge (composite(filtered(jar(C:\Users\Ray\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\neoforge-21.10.50-beta-minecraft-merged\1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta\neoforge-21.10.50-beta-minecraft-merged-1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar\net.neoforged.fml.generated))
+ - optimizedfullbright (composite(folder(C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\neoforge\build\resources\main), folder(C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\neoforge\build\classes\java\main)))
+[10:37:45] [main/INFO] (FMLLoader) Built game content classloader in 20ms
+[10:37:45] [main/WARN] (MixinFacade) Mod file composite(folder(C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\neoforge\build\resources\main), folder(C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\neoforge\build\classes\java\main)) declares mixin config optimized_fullbright.mixins.json, but it actually comes from jar(C:\Users\Ray\AppData\Local\Temp\7151532687498251936.jar)
+[10:37:45] [main/INFO] (unprotect) Found 9922 Minecraft classes
+[10:37:46] [Datafixer Bootstrap/INFO] (Minecraft) 281 Datafixer optimizations took 422 milliseconds
+[10:37:46] [main/WARN] (PerfmonDisabled) Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[10:37:46] [pool-13-thread-1/INFO] (MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[10:37:51] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:37:51] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:37:51] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:37:51] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:37:51] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:37:51] [main/WARN] (Minecraft) Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[10:37:51] [modloading-worker-0/INFO] (optimizedfullbright) Optimized Fullbright client initialized
+[10:37:51] [modloading-worker-0/INFO] (NeoForgeMod) NeoForge mod loading, version 21.10.50-beta, for MC 1.21.10
+[10:37:51] [modloading-worker-0/ERROR] (FMLModContainer) Failed to register automatic subscribers. ModID: architectury
+java.lang.NoClassDefFoundError: net/neoforged/neoforge/client/event/ContainerScreenEvent$Render$Background
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3580) ~[?:?]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2678) ~[?:?]
+	at net.neoforged.fml.javafmlmod.AutomaticEventSubscriber.lambda$inject$4(AutomaticEventSubscriber.java:56) ~[loader-10.0.29.jar:10.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at net.neoforged.fml.javafmlmod.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:47) ~[loader-10.0.29.jar:10.0]
+	at net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:129) ~[loader-10.0.29.jar:10.0]
+	at net.neoforged.fml.ModLoader.lambda$constructMods$1(ModLoader.java:130) ~[loader-10.0.29.jar:10.0]
+	at net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$5(ModLoader.java:208) ~[loader-10.0.29.jar:10.0]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.neoforged.neoforge.client.event.ContainerScreenEvent$Render$Background
+	at net.neoforged.fml.classloading.ModuleClassLoader.loadClass(ModuleClassLoader.java:254) ~[loader-10.0.29.jar:10.0]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 17 more
+[10:37:52] [main/FATAL] (ModLoader) Failed to wait for future Mod Construction, 1 errors found
+[10:37:52] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[10:37:52] [Render thread/INFO] (Minecraft) Setting user: Dev
+[10:37:52] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent to a broken mod state
+[10:37:52] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterDebugEntriesEvent to a broken mod state
+[10:37:52] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3+5
+[10:37:52] [Render thread/WARN] (Minecraft) Detected unexpected shutdown during last game startup: resetting fullscreen mode
+[10:37:56] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.ConfigureGpuDeviceEvent to a broken mod state
+[10:37:56] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[10:37:56] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.ConfigureMainRenderTargetEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterItemModelsEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterSpecialModelRendererEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$ItemTintSources to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterSelectItemModelPropertyEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterConditionalItemModelPropertyEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRangeSelectItemModelPropertyEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterSpriteSourcesEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterTextureAtlasesEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$Block to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.ModelEvent$RegisterLoaders to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRenderBuffersEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterParticleGroupsEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterPictureInPictureRenderersEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterMenuScreensEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterJsonAnimationTypesEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterBlockStateModels to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.InitializeClientRegistriesEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.AddClientReloadListenersEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterLayerDefinitions to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterRenderers to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterClientTooltipComponentFactoriesEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterEntitySpectatorShadersEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRecipeBookSearchCategoriesEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterGuiLayersEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterDimensionSpecialEffectsEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterNamedRenderTypesEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$ColorResolvers to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterItemDecorationsEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterPresetEditorsEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.gui.map.RegisterMapDecorationRenderersEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterDimensionTransitionScreenEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRenderPipelinesEvent to a broken mod state
+[10:37:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.pipeline.RegisterPipelineModifiersEvent to a broken mod state
+[10:37:57] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla
+[10:37:57] [resourceLoad/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[10:37:57] [resourceLoad/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[10:37:57] [resourceLoad/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[10:37:57] [Render thread/FATAL] (NeoForgeMod) Preparing crash report with UUID d4392e84-61da-4613-b4c3-ad972c95b17e
+[10:37:57] [Render thread/FATAL] (NeoForgeMod) Preparing crash report with UUID f5228981-e611-49a5-b136-8cbcaa3cb7d1
