@@ -3,13 +3,13 @@
   "id": "optimized_fullbright",
   "version": "${version}",
   "name": "Optimized Fullbright",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Fullbright mod that disables the lighting system to improve performance.",
   "authors": [
-    "Me!"
+    "ray"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": ""
   },
   "license": "CC0-1.0",
   "environment": "*",
@@ -29,8 +29,5 @@
     "minecraft": "*",
     "java": ">=17",
     "fabric-api": "*"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

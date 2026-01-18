@@ -28,7 +28,7 @@ public abstract class WorldRendererMixin {
             BlockPos pos,
             CallbackInfoReturnable<Integer> cir
     ) {
-        if(FullBrightToggle.isEnabled){
+        if(FullBrightToggle.isEnabled()){
             cir.setReturnValue(0xF000F0);
         }
     }

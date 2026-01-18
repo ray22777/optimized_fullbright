@@ -17,7 +17,7 @@ public abstract class LightMixin {
             cancellable = true
     )
     private void onGetLightValue(BlockPos pos, CallbackInfoReturnable<Integer> cir) {
-        if (FullBrightToggle.isEnabled && !ThreadChecker.isIntegratedServerThread()) {
+        if (FullBrightToggle.isEnabled() && !ThreadChecker.isIntegratedServerThread()) {
                 cir.setReturnValue(15);
         }
     }

@@ -17,7 +17,7 @@ public abstract class LightLevelEngineMixin {
             cancellable = true
     )
     private void onGetRawBrightness(BlockPos pos, int amount, CallbackInfoReturnable<Integer> cir) {
-        if (FullBrightToggle.isEnabled && !ThreadChecker.isIntegratedServerThread()) {
+        if (FullBrightToggle.isEnabled() && !ThreadChecker.isIntegratedServerThread()) {
                 cir.setReturnValue(15);
         }
     }

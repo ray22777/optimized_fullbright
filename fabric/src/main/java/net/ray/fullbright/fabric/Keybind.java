@@ -19,8 +19,8 @@ public class Keybind {
     public static void registerKeyInputs() {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if (toggleFullbright.consumeClick()) {
-                if (FullBrightToggle.isEnabled) {
-                    FullBrightToggle.isEnabled = false;
+                if (FullBrightToggle.isEnabled()) {
+                    FullBrightToggle.disable();
                     LocalPlayer player = Minecraft.getInstance().player;
                     if (player != null) {
                         player.displayClientMessage(Component.literal("§bFullbright §7- §cOFF"), true);
@@ -28,7 +28,7 @@ public class Keybind {
                     Minecraft.getInstance().levelRenderer.allChanged();
 
                 } else {
-                    FullBrightToggle.isEnabled = true;
+                    FullBrightToggle.enable();
                     LocalPlayer player = Minecraft.getInstance().player;
                     if (player != null) {
                         player.displayClientMessage(Component.literal("§bFullbright §7- §aON"), true);

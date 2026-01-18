@@ -1,5 +1,5 @@
 [Architectury Transformer] Architectury Runtime 5.2.87
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.0.0-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.1.0-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Provided 108 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\Ray\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
@@ -110,17 +110,19 @@
 [Architectury Transformer DEBUG]  - C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-resource-loader-v0-b0e0382d\0.11.21+ee30b13a4f\fabric-resource-loader-v0-b0e0382d-0.11.21+ee30b13a4f.jar
 [Architectury Transformer DEBUG]  - C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-sound-api-v1-b0e0382d\1.0.18+78d798af4f\fabric-sound-api-v1-b0e0382d-1.0.18+78d798af4f.jar
 [Architectury Transformer DEBUG]  - C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1-b0e0382d\5.0.15+78d798af4f\fabric-transitive-access-wideners-v1-b0e0382d-5.0.15+78d798af4f.jar
-[Architectury Transformer] Read classpath in 1.939 s
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.0.0-dev.jar to C:\Users\Ray\AppData\Local\Temp\7717223310689723339.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@17d0685f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@3891771e
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@78ac1102
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@2de8284b
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@396e2f39
-[Architectury Transformer DEBUG] Transforming from C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.0.0-dev.jar to C:\Users\Ray\AppData\Local\Temp\7717223310689723339.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer] Read classpath in 1.512 s
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.1.0-dev.jar
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.1.0-dev.jar to C:\Users\Ray\AppData\Local\Temp\8320828094551983649.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@365185bd
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@18bf3d14
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@4fb64261
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@42607a4f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@782663d3
+[Architectury Transformer DEBUG] Transforming from C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.1.0-dev.jar to C:\Users\Ray\AppData\Local\Temp\8320828094551983649.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/ray/fullbright/FullBrightToggle with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/fullbright/mixin/BypassLimitMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/fullbright/mixin/GammaMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/ray/fullbright/mixin/LightLevelEngineMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/ray/fullbright/mixin/LightmapMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/ray/fullbright/mixin/LightMixin with maxs=true frames=true
@@ -128,8 +130,16 @@
 [Architectury Transformer DEBUG] Writing net/ray/fullbright/ThreadChecker with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /optimized_fullbright-common-common-refmap.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /optimized_fullbright.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\AppData\Local\Temp\7717223310689723339.jar
-[Architectury Transformer] Listening at C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\Ray\AppData\Local\Temp\7717223310689723339.jar] contains packages: net.ray.fullbright, net.ray.fullbright.mixin
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.0.0-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\AppData\Local\Temp\8320828094551983649.jar
+[Architectury Transformer] Listening at C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.1.0-dev.jar
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\Ray\AppData\Local\Temp\8320828094551983649.jar] contains packages: net.ray.fullbright, net.ray.fullbright.mixin
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\optimized_fullbright-common-1.1.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\fabric\build\resources\main] contains packages: 
+[Architectury Transformer DEBUG] Transforming from net/ray/fullbright/FullBrightToggle.class to net/ray/fullbright/FullBrightToggle.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/ray/fullbright/FullBrightToggle with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/ray/fullbright/FullBrightToggle in 1.328 ms
+[Architectury Transformer DEBUG] Transforming from net/ray/fullbright/ThreadChecker.class to net/ray/fullbright/ThreadChecker.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/ray/fullbright/ThreadChecker with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/ray/fullbright/ThreadChecker in 320.1 μs

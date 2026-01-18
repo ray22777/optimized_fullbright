@@ -7,7 +7,10 @@
     "WorldRendererMixin",
     "LightmapMixin",
     "LightLevelEngineMixin",
-    "LightMixin"
+    "LightMixin",
+    "BypassLimitMixin",
+    "GammaMixin"
+
   ],
   "server": [],
   "mixins": [

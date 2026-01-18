@@ -34,3 +34,4 @@
 /gamerule randomTickSpeed 1000
 /gamerule randomTickSpeed 3
 /gamemode creative
+/time set night
