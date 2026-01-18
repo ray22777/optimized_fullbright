@@ -20,9 +20,9 @@ import org.slf4j.LoggerFactory;
 
 @Mod("optimizedfullbright")
 public class OptimizedFullbright {
-//    public static final KeyMapping.Cat KEY_CATEGORY =
-//            KeyMapping.Category.register(ResourceLocation.fromNamespaceAndPath("fullbright", "fullbrightoptimized"));
-    public static final String KEY_CATEGORY = "key.category.fullbright.fullbrightoptimized";
+    public static final KeyMapping.Category KEY_CATEGORY =
+            KeyMapping.Category.register(ResourceLocation.fromNamespaceAndPath("fullbright", "fullbrightoptimized"));
+//    public static final String KEY_CATEGORY = "key.category.fullbright.fullbrightoptimized";
     public static final String MOD_ID = "optimizedfullbright";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     public static final String KEY_TOGGLE_FULLBRIGHT = "key.fullbright.togglefullbright";

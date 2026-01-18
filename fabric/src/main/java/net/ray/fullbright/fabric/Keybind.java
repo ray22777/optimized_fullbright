@@ -8,13 +8,14 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.client.renderer.LightTexture;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.ray.fullbright.FullBrightToggle;
 import org.lwjgl.glfw.GLFW;
 
 public class Keybind {
-    //    public static final KeyMapping.Cat KEY_CATEGORY =
-//            KeyMapping.Category.register(ResourceLocation.fromNamespaceAndPath("fullbright", "fullbrightoptimized"));
-    public static final String KEY_CATEGORY = "key.category.fullbright.fullbrightoptimized";
+        public static final KeyMapping.Category KEY_CATEGORY =
+            KeyMapping.Category.register(ResourceLocation.fromNamespaceAndPath("fullbright", "fullbrightoptimized"));
+//    public static final String KEY_CATEGORY = "key.category.fullbright.fullbrightoptimized";
     public static final String KEY_TOGGLE_FULLBRIGHT = "key.fullbright.togglefullbright";
     public static KeyMapping toggleFullbright;
     private static long scheduledRefreshTick = -1;
