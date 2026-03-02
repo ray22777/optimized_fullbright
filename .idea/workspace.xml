@@ -5,26 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e4e54c9-4b8b-4609-b937-828a694bc033" name="Changes" comment="added neoforge support">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/forge/optimized_fullbright.forge.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/forge/optimized_fullbright.forge.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/optimized_fullbright.common.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/optimized_fullbright.common.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/optimized_fullbright.common.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/optimized_fullbright.common.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/fabric/optimized_fullbright.fabric.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/fabric/optimized_fullbright.fabric.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/fabric/optimized_fullbright.fabric.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/fabric/optimized_fullbright.fabric.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/neoforge/optimized_fullbright.neoforge.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/neoforge/optimized_fullbright.neoforge.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/neoforge/optimized_fullbright.neoforge.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/neoforge/optimized_fullbright.neoforge.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-01-18-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/Keybind.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/fullbright/fabric/Keybind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/fullbright/neoforge/OptimizedFullbright.java" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/fullbright/neoforge/OptimizedFullbright.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,48 +63,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
-                <item name="fabric" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
-                <item name="fabric" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
-                <item name="fabric" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="optimized_fullbright" type="f1a62948:ProjectNode" />
                 <item name="neoforge" type="2d1252cf:ModuleNode" />
               </path>
               <path>
@@ -137,7 +95,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1.21.1" />
+        <entry key="$PROJECT_DIR$" value="1.21.9" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -176,14 +134,16 @@
     "Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:forge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
     "Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:neoforge:build].executor": "Run",
     "Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:neoforge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
+    "Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [build].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "1.21.9",
+    "git-widget-placeholder": "1.21.11",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -213,7 +173,7 @@
       <recent name="net.ray.fullbright" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:fabric:build]">
+  <component name="RunManager" selected="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:neoforge:build]">
     <configuration name="optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:common:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -314,13 +274,38 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="optimized_fullbright-1.20.4-fabric-neoforge-forge-template [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:fabric:build]" />
         <item itemvalue="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:neoforge:build]" />
-        <item itemvalue="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:common:build]" />
+        <item itemvalue="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [build]" />
         <item itemvalue="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:forge:build]" />
-        <item itemvalue="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:neoforge:build]" />
+        <item itemvalue="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:fabric:build]" />
+        <item itemvalue="Gradle.optimized_fullbright-1.20.4-fabric-neoforge-forge-template [:common:build]" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +313,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
       </set>
     </attachedChunks>
   </component>
@@ -407,6 +391,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added kb" />

@@ -5,7 +5,7 @@ import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -21,7 +21,7 @@ import org.slf4j.LoggerFactory;
 @Mod("optimizedfullbright")
 public class OptimizedFullbright {
     public static final KeyMapping.Category KEY_CATEGORY =
-            KeyMapping.Category.register(ResourceLocation.fromNamespaceAndPath("fullbright", "fullbrightoptimized"));
+            KeyMapping.Category.register(Identifier.fromNamespaceAndPath("fullbright", "fullbrightoptimized"));
 //    public static final String KEY_CATEGORY = "key.category.fullbright.fullbrightoptimized";
     public static final String MOD_ID = "optimizedfullbright";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);

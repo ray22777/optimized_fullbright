@@ -61,5 +61,15 @@
       <option name="name" value="NeoForged" />
       <option name="url" value="https://maven.neoforged.net/releases" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="LoomLocalRemappedMods" />
+      <option name="name" value="LoomLocalRemappedMods" />
+      <option name="url" value="file:/$PROJECT_DIR$/../../../../MC%20Mod%20Development/Optimized%20Fullbright/Source/optimized_fullbright-1.20.4-fabric-neoforge-forge-template/.gradle/loom-cache/remapped_mods/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="LoomLocalMinecraft" />
+      <option name="name" value="LoomLocalMinecraft" />
+      <option name="url" value="file:/$PROJECT_DIR$/../../../../MC%20Mod%20Development/Optimized%20Fullbright/Source/optimized_fullbright-1.20.4-fabric-neoforge-forge-template/.gradle/loom-cache/minecraftMaven/" />
+    </remote-repository>
   </component>
 </project>
