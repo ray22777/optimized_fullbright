@@ -9,7 +9,9 @@
     "LightLevelEngineMixin",
     "LightMixin",
     "BypassLimitMixin",
-    "GammaMixin"
+    "GammaMixin",
+    "BlockTintGetterMixin",
+    "BlockLightMixin"
 
   ],
   "server": [],

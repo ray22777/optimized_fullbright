@@ -6,19 +6,19 @@ import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
-import net.minecraft.client.renderer.LightTexture;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
+
 import net.ray.fullbright.FullBrightToggle;
+import net.ray.fullbright.config.ModConfig;
 import org.lwjgl.glfw.GLFW;
 
 public class Keybind {
         public static final KeyMapping.Category KEY_CATEGORY =
-            KeyMapping.Category.register(ResourceLocation.fromNamespaceAndPath("fullbright", "fullbrightoptimized"));
+            KeyMapping.Category.register(Identifier.fromNamespaceAndPath("fullbright", "fullbrightoptimized"));
 //    public static final String KEY_CATEGORY = "key.category.fullbright.fullbrightoptimized";
     public static final String KEY_TOGGLE_FULLBRIGHT = "key.fullbright.togglefullbright";
     public static KeyMapping toggleFullbright;
-    private static long scheduledRefreshTick = -1;
     public static void registerKeyInputs() {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if (toggleFullbright.consumeClick()) {
@@ -39,9 +39,15 @@ public class Keybind {
                     Minecraft.getInstance().levelRenderer.allChanged();
                 }
             }
+//            if (toggleDebug.consumeClick()) {
+//                ModConfig.debugMode = !ModConfig.debugMode;
+//                LocalPlayer player = Minecraft.getInstance().player;
+//                player.displayClientMessage(Component.literal("§bFullbright DEBUG§7 " +  ModConfig.debugMode), true);
+//            }
         });
     }
-
+//    public static KeyMapping toggleDebug;
+//    public static final String KEY_TOGGLE_DEBUG = "key.fullbright.toggleDebug";
     public static void register() {
         toggleFullbright = KeyBindingHelper.registerKeyBinding(new KeyMapping(
                 KEY_TOGGLE_FULLBRIGHT,
@@ -49,6 +55,12 @@ public class Keybind {
                 GLFW.GLFW_KEY_G,
                 KEY_CATEGORY
         ));
+//        toggleDebug = KeyBindingHelper.registerKeyBinding(new KeyMapping(
+//                KEY_TOGGLE_DEBUG,
+//                InputConstants.Type.KEYSYM,
+//                GLFW.GLFW_KEY_H,
+//                KEY_CATEGORY
+//        ));
         registerKeyInputs();
     }
 }

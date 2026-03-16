@@ -1,19 +1,22 @@
 package net.ray.fullbright;
 
+import net.ray.fullbright.config.ModConfig;
+
 public class FullBrightToggle {
-    public static boolean enabled = true;
     public static boolean update = true;
 
     public static boolean isEnabled() {
-        return enabled;
+        return ModConfig.enableFullbright;
     }
 
     public static void disable() {
-        enabled = false;
+        ModConfig.enableFullbright = false;
+        ModConfig.save();
     }
 
     public static void enable() {
-        enabled = true;
+        ModConfig.enableFullbright = true;
+        ModConfig.save();
         update = true;
     }
 }

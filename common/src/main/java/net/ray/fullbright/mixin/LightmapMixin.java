@@ -1,14 +1,16 @@
 
 package net.ray.fullbright.mixin;
 
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.minecraft.client.renderer.LightTexture;
 import net.ray.fullbright.FullBrightToggle;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-
-@Mixin({LightTexture.class})
+@Environment(EnvType.CLIENT)
+@Mixin(value = LightTexture.class, priority = 10005)
 public abstract class LightmapMixin {
     @Inject(
             method = {"updateLightTexture(F)V"},
