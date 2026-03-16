@@ -14,6 +14,7 @@ import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
 import net.neoforged.neoforge.client.settings.KeyConflictContext;
 import net.neoforged.neoforge.common.NeoForge;
 import net.ray.fullbright.FullBrightToggle;
+import net.ray.fullbright.config.ModConfig;
 import org.lwjgl.glfw.GLFW;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,8 +34,8 @@ public class OptimizedFullbright {
         if (dist.isClient()) {
             modEventBus.addListener(this::registerKeyMappings);
             NeoForge.EVENT_BUS.addListener(this::onClientTick);
-
-            LOGGER.info("Optimized Fullbright client initialized");
+            ModConfig.load();
+            LOGGER.info("Optimized Fullbright isClient initialized");
         }
     }
 

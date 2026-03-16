@@ -24,7 +24,7 @@ license="MIT"
 modId="optimizedfullbright" #mandatory
 
 # The version number of the mod
-version="1.1.0" #mandatory
+version="${version}" #mandatory
 
 # A display name for the mod
 displayName="Optimized Fullbright" #mandatory
@@ -52,7 +52,7 @@ Fullbright mod that disables the lighting system to improve performance.
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
 #[[mixins]]
 #config="blockpreview.mixins.json"
-
+logoFile = "assets/optimizedfullbright/icon.png"
 # The [[accessTransformers]] block allows you to declare where your AT file is.
 # If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg
 #[[accessTransformers]]
@@ -94,3 +94,9 @@ config="optimized_fullbright.mixins.json"
 # stop your mod loading on the server for example.
 #[features.blockpreview]
 #openGLVersion="[3.2,)"
+
+["badoptimizations:incompatibilities"]
+options = [
+    "enable_sky_color_caching",
+    "enable_lightmap_caching"
+]
