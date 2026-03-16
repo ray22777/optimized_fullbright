@@ -7,15 +7,14 @@ import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 
 import net.ray.fullbright.FullBrightToggle;
 import net.ray.fullbright.config.ModConfig;
 import org.lwjgl.glfw.GLFW;
 
 public class Keybind {
-        public static final KeyMapping.Category KEY_CATEGORY =
-            KeyMapping.Category.register(Identifier.fromNamespaceAndPath("fullbright", "fullbrightoptimized"));
+    public static final String KEY_CATEGORY = "key.category.fullbright.fullbrightoptimized";
 //    public static final String KEY_CATEGORY = "key.category.fullbright.fullbrightoptimized";
     public static final String KEY_TOGGLE_FULLBRIGHT = "key.fullbright.togglefullbright";
     public static KeyMapping toggleFullbright;
