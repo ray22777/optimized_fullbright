@@ -21,7 +21,7 @@ import org.lwjgl.glfw.GLFW;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@Mod("optimizedfullbright")
+@Mod("optimized_fullbright")
 public class OptimizedFullbright {
     public static final KeyMapping.Category KEY_CATEGORY =
             KeyMapping.Category.register(Identifier.fromNamespaceAndPath("fullbright", "fullbrightoptimized"));
