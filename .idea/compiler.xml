@@ -3,11 +3,4 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="21" />
   </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="optimized_fullbright.forge" options="-AoutRefMapFile=C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\forge\build\classes\java\main\optimized_fullbright-forge-forge-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\forge\build\loom-cache\mixin-map-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.2.2.main.tiny -AinMapFileNamedIntermediary=C:\Users\Ray\.gradle\caches\fabric-loom\1.20.4\loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.2.2\mappings-mixin-srg.tiny" />
-      <module name="optimized_fullbright.forge.main" options="-AoutRefMapFile=C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\forge\build\classes\java\main\optimized_fullbright-forge-forge-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\forge\build\loom-cache\mixin-map-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.2.2.main.tiny -AinMapFileNamedIntermediary=C:\Users\Ray\.gradle\caches\fabric-loom\1.20.4\loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.2.2\mappings-mixin-srg.tiny" />
-      <module name="optimized_fullbright.forge.test" options="-AoutRefMapFile=C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\forge\build\classes\java\test\test-optimized_fullbright-forge-forge-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\Ray\Documents\MinecraftModDev\optimized_fullbright-1.20.4-fabric-neoforge-forge-template\forge\build\loom-cache\mixin-map-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.2.2.test.tiny -AinMapFileNamedIntermediary=C:\Users\Ray\.gradle\caches\fabric-loom\1.20.4\loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.2.2\mappings-mixin-srg.tiny" />
-    </option>
-  </component>
 </project>
