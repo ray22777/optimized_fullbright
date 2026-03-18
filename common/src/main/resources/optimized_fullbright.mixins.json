@@ -4,15 +4,14 @@
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "client": [
-    "WorldRendererMixin",
-    "LightmapMixin",
-    "LightLevelEngineMixin",
-    "LightMixin",
+    "BlockLightMixin",
+    "BlockTintGetterMixin",
     "BypassLimitMixin",
     "GammaMixin",
-    "BlockTintGetterMixin",
-    "BlockLightMixin"
-
+    "LightLevelEngineMixin",
+    "LightmapMixin",
+    "LightMixin",
+    "WorldRendererMixin"
   ],
   "server": [],
   "mixins": [

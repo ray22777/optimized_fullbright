@@ -8,12 +8,14 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
 import net.neoforged.neoforge.client.settings.KeyConflictContext;
 import net.neoforged.neoforge.common.NeoForge;
 import net.ray.fullbright.FullBrightToggle;
+import net.ray.fullbright.ThreadChecker;
 import net.ray.fullbright.config.ModConfig;
 import org.lwjgl.glfw.GLFW;
 import org.slf4j.Logger;
@@ -35,7 +37,10 @@ public class OptimizedFullbright {
             modEventBus.addListener(this::registerKeyMappings);
             NeoForge.EVENT_BUS.addListener(this::onClientTick);
             ModConfig.load();
-            LOGGER.info("Optimized Fullbright isClient initialized");
+            if(ModList.get().isLoaded("scalablelux")){
+                ThreadChecker.hasScalableLux();
+                OptimizedFullbright.LOGGER.info("Found ScalableLux, enabling compatibility fix.");
+            };
         }
     }
 
