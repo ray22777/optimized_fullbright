@@ -30,5 +30,11 @@
     "minecraft": "*",
     "java": ">=17",
     "fabric-api": "*"
+  },
+  "custom": {
+    "badoptimizations:incompatibilities": [
+      "enable_sky_color_caching",
+      "enable_lightmap_caching"
+    ]
   }
 }
