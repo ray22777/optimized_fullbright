@@ -20,19 +20,20 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Environment(EnvType.CLIENT)
 @Mixin(value = LevelLightEngine.class, priority = 10005)
 public abstract class LightLevelEngineMixin {
-//    @Inject(method = "runLightUpdates", at = @At("HEAD"), cancellable = true)
-//    private void disableLightUpates(CallbackInfoReturnable<Integer> cir) {
-//        if (ModConfig.enableFullbright && ThreadChecker.isClient()) {
-//            cir.setReturnValue(0);
-//        }
-//    } // DO NOT ENABLE
+    @Inject(method = "runLightUpdates", at = @At("HEAD"), cancellable = true)
+    private void disableLightUpates(CallbackInfoReturnable<Integer> cir) {
+        if (FullBrightToggle.isEnabled() && ThreadChecker.isClient() && ThreadChecker.checkScalableLux()) {
+            cir.setReturnValue(0);
+        }
+    } // only enable when scalableLux is present, otherwise it breaks mc
+    //BlockLightMixin disables subclasses of this while not using scalablelux
 
     @Inject(
             method = "getRawBrightness",
             at = @At("HEAD"),
             cancellable = true
     )
-    private void onGetRawBrightness(BlockPos pos, int amount, CallbackInfoReturnable<Integer> cir) {
+    private void disableGetRawBrightness(BlockPos pos, int amount, CallbackInfoReturnable<Integer> cir) {
         if (FullBrightToggle.isEnabled() && ThreadChecker.isClient()) {
             cir.setReturnValue(15);
             cir.cancel();

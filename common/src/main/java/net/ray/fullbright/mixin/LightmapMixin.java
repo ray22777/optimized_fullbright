@@ -17,7 +17,7 @@ public abstract class LightmapMixin {
             at = {@At("HEAD")},
             cancellable = true
     )
-    private void fullbright(float partialTick, CallbackInfo ci) {
+    private void disableLightTextureUpdate(float partialTick, CallbackInfo ci) {
         if (FullBrightToggle.isEnabled()) {
             if (FullBrightToggle.update) {
                 FullBrightToggle.update = false;

@@ -19,7 +19,7 @@ public abstract class LightMixin {
             at = @At("HEAD"),
             cancellable = true
     )
-    private void onGetLightValue(BlockPos pos, CallbackInfoReturnable<Integer> cir) {
+    private void disableGetLightValue(BlockPos pos, CallbackInfoReturnable<Integer> cir) {
         if (FullBrightToggle.isEnabled() && ThreadChecker.isClient()) {
             cir.setReturnValue(15);
             cir.cancel();
