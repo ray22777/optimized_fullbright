@@ -1,1 +1,4 @@
 /gamemode creative
+/time set minecraft:night
+/gamerule random_tick_speed 1000
+/gamerule random_tick_speed 0

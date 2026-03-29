@@ -17,7 +17,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-@Environment(EnvType.CLIENT)
 @Mixin(value = LevelLightEngine.class, priority = 10005)
 public abstract class LightLevelEngineMixin {
     @Inject(method = "runLightUpdates", at = @At("HEAD"), cancellable = true)

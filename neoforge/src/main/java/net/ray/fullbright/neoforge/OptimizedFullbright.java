@@ -62,14 +62,14 @@ public class OptimizedFullbright {
                 FullBrightToggle.disable();
                 LocalPlayer player = Minecraft.getInstance().player;
                 if (player != null) {
-                    player.displayClientMessage(Component.literal("§bFullbright §7- §cOFF"), true);
+                    player.sendOverlayMessage(Component.literal("§bFullbright §7- §cOFF"));
                 }
                 Minecraft.getInstance().levelRenderer.allChanged();
             } else {
                 FullBrightToggle.enable();
                 LocalPlayer player = Minecraft.getInstance().player;
                 if (player != null) {
-                    player.displayClientMessage(Component.literal("§bFullbright §7- §aON"), true);
+                    player.sendOverlayMessage(Component.literal("§bFullbright §7- §aON"));
                 }
                 Minecraft.getInstance().levelRenderer.allChanged();
             }

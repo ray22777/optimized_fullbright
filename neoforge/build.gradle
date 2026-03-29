@@ -1,5 +1,5 @@
 plugins {
-    id 'com.github.johnrengelman.shadow'
+    id "com.gradleup.shadow" version "9.2.2"
 }
 
 architectury {
@@ -42,16 +42,18 @@ dependencies {
 processResources {
     inputs.property 'version', project.version
 
-    filesMatching('META-INF/neoforge.mods.toml') {
+    filesMatching('fabric.mod.json') {
         expand version: project.version
     }
 }
 
 shadowJar {
     configurations = [project.configurations.shadowBundle]
-    archiveClassifier = 'dev-shadow'
+    archiveClassifier = "" // Removes the '-all' suffix so it's the main jar
 }
 
+// Ensure the standard jar task is replaced by the shadowJar
+tasks.build.dependsOn shadowJar
 //remapJar {
 //    input.set shadowJar.archiveFile
 //}

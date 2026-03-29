@@ -13,7 +13,6 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-@Environment(EnvType.CLIENT)
 @Mixin(value = Options.class, priority = 10005)
 public abstract class GammaMixin {
     @Final

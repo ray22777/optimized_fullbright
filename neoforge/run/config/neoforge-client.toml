@@ -10,3 +10,6 @@ reducedDepthStencilFormat = false
 handleAmbientOcclusionPerPart = true
 #When enabled, all usage of Blaze3D will be validated against allowed usage
 enableB3DValidationLayer = true
+#A config option mainly for developers. Logs out modded item tags that do not have translations when running on integrated server. Format desired is tag.item.<namespace>.<path> for the translation key. Defaults to SILENCED.
+#Allowed Values: SILENCED, DEV_SHORT, DEV_VERBOSE, PROD_SHORT, PROD_VERBOSE
+logUntranslatedItemTagWarnings = "SILENCED"

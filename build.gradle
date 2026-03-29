@@ -1,7 +1,7 @@
 plugins {
-    id 'dev.architectury.loom-no-remap' version '1.14-SNAPSHOT' apply false
     id "architectury-plugin" version "3.5-SNAPSHOT"
-    id 'com.github.johnrengelman.shadow' version '8.1.1' apply false
+    id "dev.architectury.loom-no-remap" version "1.14-SNAPSHOT" apply false
+    id "me.modmuss50.mod-publish-plugin" version "1.1.0"
 }
 
 architectury {
@@ -24,16 +24,10 @@ subprojects {
     }
 
     repositories {
-        // Add repositories to retrieve artifacts from in here.
-        // You should only use this when depending on other mods because
-        // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-        // See https://docs.gradle.org/current/userguide/declaring_repositories.html
-        // for more information about repositories.
     }
 
     dependencies {
         minecraft "net.minecraft:minecraft:$rootProject.minecraft_version"
-//        mappings loom.officialMojangMappings()
     }
 
     java {
@@ -67,4 +61,68 @@ subprojects {
             // retrieving dependencies.
         }
     }
+}
+evaluationDependsOn(":fabric")
+evaluationDependsOn(":neoforge")
+//evaluationDependsOn(":forge") //disable forge
+publishMods {
+    changelog = "Updated for 26.1 Support"
+    type = STABLE
+
+
+    def cfOptions = curseforgeOptions {
+        accessToken = providers.environmentVariable("CURSEFORGE_TOKEN")
+        projectId = "1421556"
+        minecraftVersions.add("26.1")
+        javaVersions.add(JavaVersion.VERSION_25)
+        clientRequired = true
+    }
+
+    def mrOptions = modrinthOptions {
+        accessToken = providers.environmentVariable("MODRINTH_TOKEN")
+        projectId = "iEtUDGQp"
+        minecraftVersions.add("26.1")
+    }
+
+    curseforge("curseforgeFabric") {
+        from cfOptions
+        file = project(":fabric").tasks.named("shadowJar").flatMap { it.archiveFile }
+        modLoaders.add("fabric")
+        requires {
+            slug = "fabric-api"
+        }
+    }
+
+    modrinth("modrinthFabric") {
+        from mrOptions
+        file = project(":fabric").tasks.named("shadowJar").flatMap { it.archiveFile }
+        modLoaders.add("fabric")
+        requires {
+            slug = "fabric-api"
+        }
+    }
+
+    curseforge("curseforgeNeoForge") {
+        from cfOptions
+        file = project(":neoforge").tasks.named("shadowJar").flatMap { it.archiveFile }
+        modLoaders.add("neoforge")
+    }
+
+    modrinth("modrinthNeoForge") {
+        from mrOptions
+        file = project(":neoforge").tasks.named("shadowJar").flatMap { it.archiveFile }
+        modLoaders.add("neoforge")
+    }
+
+//    curseforge("curseforgeForge") { //disable forge
+//        from cfOptions
+//        file project(":forge")
+//        modLoaders.add("forge")
+//    }
+//
+//    modrinth("modrinthForge") {
+//        from mrOptions
+//        file project(":forge")
+//        modLoaders.add("forge")
+//    }
 }

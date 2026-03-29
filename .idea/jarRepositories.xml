@@ -61,5 +61,10 @@
       <option name="name" value="NeoForged" />
       <option name="url" value="https://maven.neoforged.net/releases" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="Terraformers" />
+      <option name="name" value="Terraformers" />
+      <option name="url" value="https://maven.terraformersmc.com/" />
+    </remote-repository>
   </component>
 </project>

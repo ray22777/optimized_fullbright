@@ -152,3 +152,19 @@ com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication 
 [12:38:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Fullbright Testing]'/minecraft:overworld
 [12:38:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Fullbright Testing]'/minecraft:the_nether
 [12:38:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Fullbright Testing]'/minecraft:the_end
+[13:05:58] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2087ms or 41 ticks behind
+[13:05:58] [Render thread/INFO] (Minecraft) Resizing Chunk Sections UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[13:06:03] [Render thread/INFO] (Minecraft) Stopping!
+[13:06:03] [Server thread/INFO] (Minecraft) Player605 lost connection: Disconnected
+[13:06:03] [Server thread/INFO] (Minecraft) Player605 left the game
+[13:06:05] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[13:06:05] [Server thread/INFO] (Minecraft) Stopping server
+[13:06:05] [Server thread/INFO] (Minecraft) Saving players
+[13:06:05] [Server thread/INFO] (Minecraft) Saving worlds
+[13:06:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Fullbright Testing]'/minecraft:overworld
+[13:06:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Fullbright Testing]'/minecraft:the_nether
+[13:06:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Fullbright Testing]'/minecraft:the_end
+[13:06:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:06:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:06:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:06:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
