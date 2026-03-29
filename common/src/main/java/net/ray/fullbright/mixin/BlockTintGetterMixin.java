@@ -4,7 +4,7 @@ package net.ray.fullbright.mixin;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.level.BlockAndTintGetter;
+import net.minecraft.world.level.BlockAndLightGetter;
 import net.ray.fullbright.FullBrightToggle;
 import net.ray.fullbright.ThreadChecker;
 import org.spongepowered.asm.mixin.Mixin;
@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Environment(EnvType.CLIENT)
-@Mixin(value = BlockAndTintGetter.class, priority = 10005)
+@Mixin(value = BlockAndLightGetter.class, priority = 10005)
 public interface  BlockTintGetterMixin {
     @Inject(
             method = "getBrightness",

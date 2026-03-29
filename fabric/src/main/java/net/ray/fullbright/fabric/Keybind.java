@@ -2,7 +2,7 @@ package net.ray.fullbright.fabric;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
-import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
+import net.fabricmc.fabric.api.client.keymapping.v1.KeyMappingHelper;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
@@ -26,7 +26,7 @@ public class Keybind {
                     FullBrightToggle.disable();
                     LocalPlayer player = Minecraft.getInstance().player;
                     if (player != null) {
-                        player.displayClientMessage(Component.literal("§bFullbright §7- §cOFF"), true);
+                        player.sendOverlayMessage(Component.literal("§bFullbright §7- §cOFF"));
                     }
                     Minecraft.getInstance().levelRenderer.allChanged();
 
@@ -34,7 +34,7 @@ public class Keybind {
                     FullBrightToggle.enable();
                     LocalPlayer player = Minecraft.getInstance().player;
                     if (player != null) {
-                        player.displayClientMessage(Component.literal("§bFullbright §7- §aON"), true);
+                        player.sendOverlayMessage(Component.literal("§bFullbright §7- §aON"));
                     }
                     Minecraft.getInstance().levelRenderer.allChanged();
                 }
@@ -42,14 +42,14 @@ public class Keybind {
 //            if (toggleDebug.consumeClick()) {
 //                ModConfig.debugMode = !ModConfig.debugMode;
 //                LocalPlayer player = Minecraft.getInstance().player;
-//                player.displayClientMessage(Component.literal("§bFullbright DEBUG§7 " +  ModConfig.debugMode), true);
+//                player.sendOverlayMessage(Component.literal("§bFullbright DEBUG§7 " +  ModConfig.debugMode), true);
 //            }
         });
     }
 //    public static KeyMapping toggleDebug;
 //    public static final String KEY_TOGGLE_DEBUG = "key.fullbright.toggleDebug";
     public static void register() {
-        toggleFullbright = KeyBindingHelper.registerKeyBinding(new KeyMapping(
+        toggleFullbright = KeyMappingHelper.registerKeyMapping(new KeyMapping(
                 KEY_TOGGLE_FULLBRIGHT,
                 InputConstants.Type.KEYSYM,
                 GLFW.GLFW_KEY_G,
