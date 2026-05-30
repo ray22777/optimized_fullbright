@@ -21,9 +21,10 @@ With a simulated lag machine designed to cause more light updates:
 
 Of course, in normal gameplay the performance gap will be smaller. However, it can provide noticeable improvements in areas with huge amount of block/light updates, e.g. large scale farms that use pistons.
 
-### Compatible renderers:
-- Vanilla
+### Compatible mods:
 - Sodium
+- Bad Optimizations
+- ScalableLux
 
 
 By default, fullbright is toggleable by using the key (**G**). It can be changed in the controls setting.
@@ -32,3 +33,20 @@ _This mod is purely **visual** and does not affect any other game mechanics._
 
 
 
+## Dependencies (For versions >= 2.0.0)
+
+### Fabric Dependencies
+
+Mod Menu is optional.
+
+| Modrinth     |Curseforge   |
+| ------------ |------------ |
+| <a href="https://modrinth.com/mod/craft-config" target="_blank" rel="nofollow">Craft Config Lib</a> | <a href="https://www.curseforge.com/minecraft/mc-mods/craft-config" target="_blank" rel="nofollow">Craft Config Lib</a> |
+| <a href="https://modrinth.com/mod/fabric-api" target="_blank" rel="nofollow">Fabric API</a>         | <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api" target="_blank" rel="nofollow">Fabric API</a>         |
+| <a href="https://modrinth.com/mod/modmenu" target="_blank" rel="nofollow">Mod Menu</a>              | <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu" target="_blank" rel="nofollow">Mod Menu</a>              |
+
+### (Neo)Forge Dependencies
+
+| Modrinth     |Curseforge   |
+| ------------ |------------ |
+| <a href="https://modrinth.com/mod/craft-config" target="_blank" rel="nofollow">Craft Config Lib</a> | <a href="https://www.curseforge.com/minecraft/mc-mods/craft-config" target="_blank" rel="nofollow">Craft Config Lib</a> |
