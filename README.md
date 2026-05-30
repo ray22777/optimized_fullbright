@@ -1,48 +1,34 @@
-# Blocks Previewer
-### Preview blocks before placing!
-![showcase1](https://raw.githubusercontent.com/tricube3/blockspreviewer/refs/heads/master/showcase1.webp)
-
-Ever placed a stair or piston the wrong way and had to break it again? Blocks Previewer lets you see how a block will be oriented before it’s placed, saving your time and frustration, especially useful for builders and redstoners.
-
-This is a purely client-sided mod, and does not interact the server. Works similarly to Create’s placement preview, but for any block in Minecraft.
-
-To open config for the mod, use the command `/blockspreviewer` or by using Mod Menu for Fabric or the built in (neo)Forge config menu.
-
-## Features
-- **Controls**
-  - Press **G** to toggle preview
-  - Hold **H** for a momentary preview
-
-  _(Both keys are fully configurable in the controls menu.)_
-- **Block filtering**
-
-  - Use **J** to switch between previewing:
-    - All blocks
-    - Only directional blocks (stairs, pistons, observers, etc.)
+# Optimized Fullbright
 
 
-## Showcase
-**TRANSPARENT mode**
 
-![showcase2](https://raw.githubusercontent.com/tricube3/blockspreviewer/refs/heads/master/showcase2.webp)
+## How does this mod differ from the others?
+Instead of just changing minecraft's gamma value like many other fullbright mods, this mod also completely **disables** minecraft's lighting engine. This reduces the number of lighting calculations the game has to perform, improving performance since there's no reason to compute light levels when they’re always at the maximum.
 
-**OUTLINE mode**
+Because of this, F3 will display every block’s light level as 15, indicating that the mod is working.
 
-![outline](https://cdn.modrinth.com/data/cached_images/5be02ed4c156f12a8ac41fd9fabf22d5746b8f73.png)
+![working example](https://cdn.modrinth.com/data/cached_images/cc830668bf1e7ad80eb001b5e067fe196a174b47.png)
 
-**CONFIGS**
 
-![config](https://cdn.modrinth.com/data/cached_images/1c225fe1110188ed43c3ff2090745af87b1846dc.png)
+##  Performance comparison
+With a simulated lag machine designed to cause more light updates:
 
-## Dependencies (For versions >= 2.1.0)
+(**LEFT**) Fullbright Disabled : ~210 fps
 
-### Fabric Dependencies
+‎(**RIGHT**) Fullbright Enabled : ~260fps
 
-Mod Menu is optional. All else is required.
+<img src="https://cdn.modrinth.com/data/cached_images/929afcfd85d340c829b3c189ba88811b5c18dfb8_0.webp" alt="Alt text" width="50%"><img src="https://cdn.modrinth.com/data/cached_images/98ee3c6744733c62284cc1339aee1b3bafe54c17_0.webp" alt="Alt text" width="50%">
 
-| Modrinth                                                                                            | Curseforge                                                                                                              |
-|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| <a href="https://modrinth.com/mod/craft-config" target="_blank" rel="nofollow">Craft Config Lib</a> | <a href="https://www.curseforge.com/minecraft/mc-mods/craft-config" target="_blank" rel="nofollow">Craft Config Lib</a> |
-| <a href="https://modrinth.com/mod/fabric-api" target="_blank" rel="nofollow">Fabric API</a>         | <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api" target="_blank" rel="nofollow">Fabric API</a>         |
-| <a href="https://modrinth.com/mod/modmenu" target="_blank" rel="nofollow">Mod Menu</a>              | <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu" target="_blank" rel="nofollow">Mod Menu</a>              |
+Of course, in normal gameplay the performance gap will be smaller. However, it can provide noticeable improvements in areas with huge amount of block/light updates, e.g. large scale farms that use pistons.
+
+### Compatible renderers:
+- Vanilla
+- Sodium
+
+
+By default, fullbright is toggleable by using the key (**G**). It can be changed in the controls setting.
+
+_This mod is purely **visual** and does not affect any other game mechanics._
+
+
 
