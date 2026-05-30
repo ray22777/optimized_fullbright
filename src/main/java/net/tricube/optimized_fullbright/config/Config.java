@@ -62,7 +62,7 @@ public class Config {
 											.notify(true)))
 							.build())
 					.section(ConfigSection.builder(Component.literal("Compatibility"))
-							.description(Component.literal("If you encounter compatibility issues with certain mods,\ntry turning off individual optimizations.\n Some settings may require a restart."))
+							.description(Component.literal("If you encounter compatibility issues with certain mods, try turning off individual optimizations.\nSome settings may require a restart."))
 							.option(overrideGamma.controller(new BooleanController()))
 							.option(disablelightPropagation.controller(new BooleanController()))
 							.option(forceMaxBrightness.controller(new BooleanController()))
