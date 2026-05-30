@@ -70,8 +70,8 @@ repositories {
 
 dependencies {
 	implementation("maven.modrinth:craft-config:${prop("deps.craft-config")}+${prop("deps.minecraft")}-neoforge")
-	// implementation(libs.moulberry.mixinconstraints)
-	// jarJar(libs.moulberry.mixinconstraints)
+	implementation(libs.moulberry.mixinconstraints)
+	jarJar(libs.moulberry.mixinconstraints)
 }
 
 tasks.named("createMinecraftArtifacts") {

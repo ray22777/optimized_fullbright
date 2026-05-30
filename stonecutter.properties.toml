@@ -1,40 +1,41 @@
-mod.id = "blocks_previewer"
-mod.name = "Blocks Previewer"
-mod.group = "net.ray"
-mod.version = "2.1.0"
+mod.id = "optimized_fullbright"
+mod.name = "Optimized Fullbright"
+mod.group = "net.tricube"
+mod.version = "2.0.0"
 mod.channel_tag = ""
-mod.description = "Client-side mod to preview how blocks will be orientated when placed!"
-mod.authors = ["ray"]
+mod.description = "Fullbright mod that disables the lighting system to improve performance."
+mod.authors = ["tricube"]
 mod.contributors = []
 mod.inception_year = "2026"
 mod.license.name = "MIT"
 mod.license.url = "https://opensource.org/licenses/MIT"
 mod.license.dist = "repo"
-mod.sources_url = "https://github.com/ray22777/blockspreviewer"
-mod.homepage_url = "https://github.com/ray22777/blockspreviewer"
-mod.issues_url = "https://github.com/ray22777/blockspreviewer/issues"
+mod.sources_url = "https://github.com/tricube3/optimized_fullbright"
+mod.homepage_url = "https://github.com/tricube3/optimized_fullbright"
+mod.issues_url = "https://github.com/tricube3/optimized_fullbright/issues"
 mod.discord_url = ""
 [[mod.pom.developers]]
-id = "ray"
-name = "ray"
+id = "tricube"
+name = "tricube"
 url = "https://github.com/ghost"
 
 [fabric]
 deps.fabric-loader = "0.19.2"
-deps.craft-config = "1.1.2"
+deps.craft-config = "1.1.6"
 
 [fabric."1.20.1"]
 deps.minecraft = "1.20.1"
 deps.fabric-api = "0.92.9+1.20.1"
 deps.modmenu = "7.2.2"
 
+
 [fabric."1.21.1"]
 deps.minecraft = "1.21.1"
 deps.fabric-api = "0.116.7+1.21.1"
 deps.modmenu = "11.0.4"
+publish.additionalVersions = ["1.21.2", "1.21.3","1.21.4","1.21.5","1.21.6", "1.21.7","1.21.8","1.21.9","1.21.10"]
 
 [fabric."1.21.11"]
-deps.craft-config = "1.1.1"
 deps.minecraft = "1.21.11"
 deps.fabric-api = "0.141.4+1.21.11"
 deps.modmenu = "17.0.0"
@@ -47,18 +48,20 @@ deps.modmenu = "18.0.0-beta.1"
 publish.additionalVersions = ["26.1.1", "26.1.2"]
 
 [forge]
-deps.craft-config = "1.1.0"
+deps.craft-config = "1.1.7"
 
 [forge."1.20.1"]
+deps.craft-config = "1.1.5"
 deps.minecraft = "1.20.1"
 deps.forge = "47.4.18"
 
 [neoforge]
-deps.craft-config = "1.1.0"
+deps.craft-config = "1.1.6"
 
 [neoforge."1.21.1"]
 deps.minecraft = "1.21.1"
 deps.neoforge = "21.1.213"
+publish.additionalVersions = ["1.21.2", "1.21.3","1.21.4","1.21.5","1.21.6", "1.21.7","1.21.8","1.21.9","1.21.10"]
 
 [neoforge."1.21.11"]
 deps.minecraft = "1.21.11"

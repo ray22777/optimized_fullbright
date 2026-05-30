@@ -1,0 +1,21 @@
+{
+  "package": "net.tricube.optimized_fullbright.mixin",
+  "required": true,
+  "refmap": "optimized_fullbright.mixins.refmap.json",
+  "minVersion": "0.8",
+  "compatibilityLevel": "${java}",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [],
+  "client": [
+    "BlockLightMixin",
+    "BlockTintGetterMixin",
+    "BypassLimitMixin",
+    "GammaMixin",
+    "LightLevelEngineMixin",
+    "LightmapMixin",
+    "LightMixin",
+    "WorldRendererMixin"
+  ]
+}

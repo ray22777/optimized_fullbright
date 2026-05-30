@@ -2,9 +2,12 @@
 
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.put
 import kotlinx.serialization.json.putJsonObject
+import kotlinx.serialization.json.buildJsonArray
+import kotlinx.serialization.json.putJsonArray
 import net.peanuuutz.tomlkt.Toml
 import org.gradle.api.NamedDomainObjectContainer
 import java.util.*
@@ -43,6 +46,10 @@ sealed class Loader(val id: String) {
 						putJsonObject("links") {
 							put("modmenu.discord", ctx.discordUrl)
 						}
+					}
+					putJsonArray("badoptimizations:incompatibilities") {
+						add(JsonPrimitive("enable_sky_color_caching"))
+						add(JsonPrimitive("enable_lightmap_caching"))
 					}
 				},
 				description = ctx.description,
@@ -114,11 +121,19 @@ sealed class Loader(val id: String) {
 						authors = ctx.authors.joinToString(", "),
 						credits = "${ctx.authors.joinToString(", ")} Contributors: ${ctx.contributors.joinToString(", ")}",
 						description = ctx.description
+
 					)
 				), dependencies = mapOf(ctx.modId to forgeDeps), mixins = listOf(ForgeMixin("${ctx.modId}.mixins.json"))
 			)
 
-			return TOML.encodeToString(manifest)
+			return TOML.encodeToString(manifest) + """
+
+			["badoptimizations:incompatibilities"]
+			options = [
+				"enable_sky_color_caching",
+				"enable_lightmap_caching"
+			]
+			""".trimIndent()
 		}
 	}
 

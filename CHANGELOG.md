@@ -1,3 +1,2 @@
 - migrate to craft config lib
-- added block filtering
-- improved accuracy of block previews
+- added individual optimization configs
