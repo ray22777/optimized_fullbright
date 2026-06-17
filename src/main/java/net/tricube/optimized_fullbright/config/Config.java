@@ -49,9 +49,11 @@ public class Config {
 							.option(enableFullbright.controller(new BooleanController())
 									.onChanged(v -> {
 										if(ThreadChecker.isClient()){//ensure it fires on client thread (forge is buggy in dev environment)
+											//~ if >=26.1 '.levelRenderer.' -> '.levelExtractor.'
 											Minecraft.getInstance().levelRenderer.allChanged();
 										}
 										else{
+											//~ if >=26.1 '.levelRenderer.' -> '.levelExtractor.'
 											Minecraft.getInstance().execute(()->Minecraft.getInstance().levelRenderer.allChanged());
 										}
 										FullbrightState.setRequireUpdate(true);

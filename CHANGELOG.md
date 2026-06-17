@@ -1,2 +1,1 @@
-- migrate to craft config lib
-- added individual optimization configs
+26.2 support
